@@ -976,7 +976,7 @@ h2:hover {
     width: 400px;
   }
 
-  seccioncontactanos__parrafo {
+  .seccioncontactanos__parrafo {
     font-size: small;
     display: flex;
   }
