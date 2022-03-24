@@ -450,7 +450,7 @@ h2:hover {
 }
 .direccionimagenes p {
   font-family: Segoe UI;
-  font-size: large;
+  font-size: x-large;
   font-weight: bold;
   opacity: 0.7;
   color: black;
@@ -459,8 +459,8 @@ h2:hover {
   padding-top: 20px;
 }
 .direccionimagenes img {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   padding: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
