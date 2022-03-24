@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-.containerTemple, .iluminacion h2, .galeria h2, .diseños h2, .seccioncontactanos h2, h2 {
+.containerTemple, .iluminacion h2, .galeria h2, .diseños h2, .contactanos__main .seccioncontactanos h2, h2 {
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -234,8 +234,7 @@ h2:hover {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-.seccioncontactanos {
+.contactanos__main .seccioncontactanos {
   font-family: Segoe UI;
   text-align: center;
   background-image: url(../assets/imagenes/imagen_de_contacto.jpg);
@@ -246,7 +245,7 @@ h2:hover {
   color: white;
   font-size: larger;
 }
-.seccioncontactanos h2 {
+.contactanos__main .seccioncontactanos h2 {
   display: inline-block;
   justify-content: center;
   width: 300px;
@@ -255,18 +254,10 @@ h2:hover {
   color: black;
   transition: all 10s;
 }
-.seccioncontactanos h2:hover {
+.contactanos__main .seccioncontactanos h2:hover {
   width: 600px;
 }
-
-/*animacion a seccion contactanos*/
-.seccioncontactanos h2 {
-  font-family: Segoe UI;
-  text-align: center;
-  padding-top: 30px;
-  color: black;
-}
-.seccioncontactanos p {
+.contactanos__main .seccioncontactanos p {
   font-family: Segoe UI;
   text-align: -webkit-match-parent;
   line-height: 1.5;
@@ -277,6 +268,15 @@ h2:hover {
   margin-right: 40px;
   background: white;
   opacity: 0.5;
+  color: black;
+  font-size: x-large;
+}
+
+/*animacion a seccion contactanos*/
+.seccioncontactanos h2 {
+  font-family: Segoe UI;
+  text-align: center;
+  padding-top: 30px;
   color: black;
 }
 
@@ -974,6 +974,11 @@ h2:hover {
     align-items: center;
     margin: 0 auto;
     width: 400px;
+  }
+
+  seccioncontactanos__parrafo {
+    font-size: small;
+    display: flex;
   }
 }
 @media (max-width: 530px) {

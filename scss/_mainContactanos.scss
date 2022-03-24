@@ -3,7 +3,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     
-  }
+  
   
   .seccioncontactanos {
     font-family: $fuente_principal;
@@ -30,16 +30,6 @@
         width: 600px;
       }
     }
-  }
-  
-  /*animacion a seccion contactanos*/
-  .seccioncontactanos{
-    h2{
-      font-family: $fuente_principal;
-    text-align: center;
-    padding-top: 30px;
-    color: black;
-    }
     p{
       font-family: $fuente_principal;
     text-align: -webkit-match-parent;
@@ -51,6 +41,17 @@
     margin-right: 40px;
     background: white;
     opacity: 0.5;
+    color: black;
+    font-size: x-large;
+    }
+  }
+  }
+  /*animacion a seccion contactanos*/
+  .seccioncontactanos{
+    h2{
+      font-family: $fuente_principal;
+    text-align: center;
+    padding-top: 30px;
     color: black;
     }
   }
