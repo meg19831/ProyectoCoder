@@ -460,7 +460,7 @@ h2:hover {
   justify-content: center;
   margin: auto;
   width: 100;
-  background-image: url(../assets/Imagenes/imagentitulo.jpg);
+  background-image: url(../assets/imagenes/imagentitulo.jpg);
   background-size: cover;
 }
 .direccionimagenes p {
