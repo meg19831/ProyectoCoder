@@ -220,6 +220,9 @@
         justify-items: center;
         align-items: center;
     }
+    .diseños__parrafo{
+        font-size: medium;
+    }
 }
 @media(max-width: 415px){
     .construimos h2{
@@ -233,7 +236,7 @@
 }
 @media (max-width: 370px){
     .diseños__parrafo{
-        font-size: medium;
+        font-size: small;
     }
     .diseñosp{
         font-size: medium;

@@ -349,14 +349,13 @@ h2:hover {
   background-position: center;
   opacity: 0.9;
   color: white;
-  font-size: larger;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../assets/imagenes/imagen_de_contacto.jpg);
 }
 .diseños h2 {
   font-family: Segoe UI;
-  font-size: larger;
+  font-size: x-large;
   position: relative;
   text-align: center;
   padding-top: 60px;
@@ -367,6 +366,7 @@ h2:hover {
 }
 .diseños p {
   font-family: Segoe UI;
+  font-size: large;
   text-align: -webkit-match-parent;
   line-height: 1.5;
   font-weight: bold;
@@ -488,7 +488,7 @@ h2:hover {
   transform: scale(1.1);
 }
 
-.diseñosp__diseños div p {
+.diseñosp p {
   justify-content: center;
   align-content: center;
   font-family: Segoe UI;
@@ -497,8 +497,9 @@ h2:hover {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  opacity: 0.8;
-  color: black;
+  background-color: white;
+  opacity: 0.7;
+  color: white;
   font-weight: bold;
   font-size: larger;
   padding-top: 25px;
@@ -1043,6 +1044,10 @@ h2:hover {
     justify-items: center;
     align-items: center;
   }
+
+  .diseños__parrafo {
+    font-size: medium;
+  }
 }
 @media (max-width: 415px) {
   .construimos h2 {
@@ -1056,7 +1061,7 @@ h2:hover {
 }
 @media (max-width: 370px) {
   .diseños__parrafo {
-    font-size: medium;
+    font-size: small;
   }
 
   .diseñosp {
