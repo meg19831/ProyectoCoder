@@ -260,6 +260,11 @@ h2:hover {
   width: 600px;
 }
 
+.imagencontactanos {
+  max-width: 100%;
+  height: auto;
+}
+
 /*animacion a seccion contactanos*/
 .seccioncontactanos h2 {
   font-family: Segoe UI;
@@ -588,7 +593,6 @@ h2:hover {
   background-position: center;
   opacity: 0.9;
   color: white;
-  font-size: larger;
 }
 .somos h2 {
   font-family: Segoe UI;
@@ -608,6 +612,7 @@ h2:hover {
   background: white;
   opacity: 0.5;
   color: black;
+  font-size: large;
 }
 
 /*agregando animaciones*/
@@ -1024,6 +1029,10 @@ h2:hover {
 }
 @media (max-width: 500px) {
   .galeria__parrafo {
+    font-size: small;
+  }
+
+  .somos__parrafo {
     font-size: small;
   }
 }
