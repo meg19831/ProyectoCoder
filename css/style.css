@@ -366,7 +366,7 @@ h2:hover {
 }
 .diseños p {
   font-family: Segoe UI;
-  font-size: large;
+  font-size: x-large;
   text-align: -webkit-match-parent;
   line-height: 1.5;
   font-weight: bold;
@@ -536,7 +536,6 @@ h2:hover {
   opacity: 0.9;
   color: black;
   font-weight: bold;
-  font-size: larger;
 }
 .galeria h2 {
   display: inline-block;
@@ -549,22 +548,26 @@ h2:hover {
   text-align: center;
   padding-top: 30px;
   transition: all 10s;
+  font-size: larger;
 }
 .galeria h2:hover {
   width: 600px;
 }
-.galeria h2:hover p {
+
+p {
   font-family: Segoe UI;
+  font-size: x-large;
   text-align: -webkit-match-parent;
   line-height: 1.5;
   font-weight: bold;
-  padding-top: 40px;
+  padding-top: 80px;
   padding-bottom: 40px;
-  margin-left: 40px;
+  margin-left: 200px;
   margin-right: 40px;
   background: white;
-  opacity: 0.5;
+  opacity: 0.7;
   color: black;
+  position: relative;
 }
 
 .carousel-item img .d-block w-100 {
@@ -616,7 +619,7 @@ h2:hover {
   background: white;
   opacity: 0.5;
   color: black;
-  font-size: large;
+  font-size: x-large;
 }
 
 /*agregando animaciones*/
@@ -681,7 +684,6 @@ h2:hover {
   background-position: bottom;
   opacity: 0.9;
   color: white;
-  font-size: medium;
 }
 .iluminacion h2 {
   display: inline-block;
@@ -694,18 +696,20 @@ h2:hover {
   text-align: center;
   padding-top: 30px;
   transition: all 10s;
+  font-size: x-large;
 }
 .iluminacion h2:hover {
   width: 600px;
 }
-.iluminacion h2:hover p {
+.iluminacion p {
   font-family: Segoe UI;
+  font-size: x-large;
   text-align: -webkit-match-parent;
   line-height: 1.5;
   font-weight: bold;
-  padding-top: 40px;
+  padding-top: 80px;
   padding-bottom: 40px;
-  margin-left: 40px;
+  margin-left: 200px;
   margin-right: 40px;
   background: white;
   opacity: 0.7;
@@ -1037,7 +1041,11 @@ h2:hover {
 }
 @media (max-width: 500px) {
   .galeria__parrafo {
-    font-size: small;
+    font-size: medium;
+  }
+
+  .iluminacion__parrafo {
+    font-size: medium;
   }
 }
 @media (max-width: 470px) {
@@ -1073,7 +1081,7 @@ h2:hover {
 }
 @media (max-width: 370px) {
   .iluminacion__parrafo {
-    font-size: mediabsolute;
+    font-size: small;
   }
 }
 @media (max-width: 370px) {

@@ -209,9 +209,11 @@
 }
 @media(max-width:500px){
     .galeria__parrafo{
-        font-size: small;   
+        font-size: medium;   
     }
-    
+    .iluminacion__parrafo{
+        font-size: medium;
+    }
 }
 @media(max-width: 470px){
     .construimos__title{
@@ -244,7 +246,7 @@
 }
 @media(max-width: 370px){
     .iluminacion__parrafo{
-        font-size: mediabsolute;
+        font-size: small;
     }
 }
 @media(max-width: 370px){
