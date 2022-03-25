@@ -1015,6 +1015,10 @@ h2:hover {
   .construimos__parrafo {
     font-size: small;
   }
+
+  .somos__parrafo {
+    font-size: medium;
+  }
 }
 @media (max-width: 500px) {
   .construimos h2 {
@@ -1029,10 +1033,6 @@ h2:hover {
 }
 @media (max-width: 500px) {
   .galeria__parrafo {
-    font-size: small;
-  }
-
-  .somos__parrafo {
     font-size: small;
   }
 }
@@ -1085,7 +1085,7 @@ h2:hover {
 }
 @media (max-width: 350px) {
   .somos__parrafo {
-    font-size: medium;
+    font-size: small;
   }
 
   .tecontamos {

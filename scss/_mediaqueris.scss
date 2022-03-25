@@ -192,6 +192,9 @@
         font-size: small;
         
     }
+    .somos__parrafo{
+        font-size: medium;
+    }
 }
 @media(max-width: 500px){
     .construimos h2{
@@ -208,9 +211,7 @@
     .galeria__parrafo{
         font-size: small;   
     }
-    .somos__parrafo{
-        font-size: small;
-    }
+    
 }
 @media(max-width: 470px){
     .construimos__title{
@@ -264,7 +265,7 @@
 
 @media (max-width: 350px){
     .somos__parrafo{
-        font-size: medium;
+        font-size: small;
     }
     .tecontamos{
         font-size: medium;
