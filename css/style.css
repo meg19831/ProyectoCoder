@@ -364,7 +364,8 @@ h2:hover {
   flex-flow: row;
   justify-content: center;
 }
-.diseños p {
+
+p {
   font-family: Segoe UI;
   font-size: x-large;
   text-align: -webkit-match-parent;
@@ -607,7 +608,8 @@ p {
   padding-top: 30px;
   color: black;
 }
-.somos p {
+
+p {
   font-family: Segoe UI;
   text-align: -webkit-match-parent;
   line-height: 1.5;
@@ -675,6 +677,10 @@ p {
   background-size: cover;
 }
 
+body {
+  background-image: url(../assets/imagenes/imagentitulo.jpg);
+}
+
 .iluminacion {
   font-family: Segoe UI;
   text-align: center;
@@ -701,7 +707,8 @@ p {
 .iluminacion h2:hover {
   width: 600px;
 }
-.iluminacion p {
+
+p {
   font-family: Segoe UI;
   font-size: x-large;
   text-align: -webkit-match-parent;
@@ -718,10 +725,9 @@ p {
 }
 
 .descripcion__luces {
-  background-image: url(../assets/imagenes/imagentitulo.jpg);
   background-repeat: no-repeat;
+  position: cover;
   background-size: 100%;
-  background-position: bottom;
 }
 .descripcion__luces p {
   font-family: Segoe UI;
@@ -729,7 +735,7 @@ p {
   text-align: center;
   line-height: 1.5;
   background-color: cadetblue;
-  background-position: center;
+  background-position: cover;
   border: gray;
   border-style: solid;
   background: size 100%;
@@ -739,6 +745,9 @@ p {
   position: relative;
   margin: 0 auto;
   margin-left: 200px;
+}
+.descripcion__luces img {
+  display: none;
 }
 
 .volver {
@@ -1057,6 +1066,10 @@ p {
   }
 
   .diseños__parrafo {
+    font-size: medium;
+  }
+
+  .iluminacion__parrafo {
     font-size: medium;
   }
 }
